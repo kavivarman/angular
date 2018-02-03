@@ -2,10 +2,29 @@ module.exports= function(grunt){
 
     grunt.initConfig({
         pkg:grunt.file.readJSON('package.json'),
+        jshint:{
+            files:['app/**/*.js'],
+             options:{
+                globals:{
+                    jQuery:true,
+                    console:true,
+                    module:true
+                }
+            }
+        },
+        concat:{
+            options:{
+                separator:';'
+            },
+            dist:{
+                src:['app/**/*.js'],
+                dest:'bower_components/dist/js/<%= pkg.name %>.js'
+            }
+        },
         connect:{
             server:{
                 options:{
-                    port:8000,
+                    port:9000,
                     host:'localhost',
                     base:'',
                     keepalive:true
@@ -15,19 +34,13 @@ module.exports= function(grunt){
     });
     
     grunt.loadNpmTasks('grunt-contrib-connect');
-
-    //grunt.registerTask('server','connect:server');
-
- // After running "npm install connect serve-static --save-dev" to add connect as a dev
-        // dependency of your project, you can require it in your gruntfile with:
-        var connect = require('connect');
-      //  var serveStatic = require('serve-static');
-      //  connect(serveStatic('/app')).listen(8000);
-    // Now you can define a "connect" task that starts a webserver, using the
-        // connect lib, with whatever options and configuration you need:
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    var connect = require('connect');
         grunt.registerTask('server', function() {
-            grunt.task.run('connect:server');
-            grunt.log.writeln('Starting static web server in "/app" on port 8000.');
-           // connect(serveStatic('/app')).listen(8000);
+            grunt.task.run('concat','connect:server');
+            grunt.log.writeln('Starting static web server in "/app" on port 9000.');
         });
 }
+
+//https://github.com/gruntjs
