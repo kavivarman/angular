@@ -1,4 +1,4 @@
-'use strict'
+;'use strict';
 (function (angular) {
     angular.module('MyProject', ['ui.router'])
     .config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
@@ -18,8 +18,7 @@
            $rootScope.title = $state.current.data.title;
        });
    });
-}(angular))
-(function (angular) {
+}(angular));(function (angular) {
     angular.module('MyProject')
       .controller("applycontroller", ["$scope", function ($scope) {
           $scope.data = { time: new Date() };
