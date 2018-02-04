@@ -43,4 +43,4 @@ module.exports= function(grunt){
         });
 }
 
-//https://github.com/gruntjs for check
+//https://github.com/gruntjs of reference
