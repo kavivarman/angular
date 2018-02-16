@@ -1,0 +1,188 @@
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 1.4 kB → 755 B
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.027s at Wed Feb 14 2018 12:01:15 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.027s at Wed Feb 14 2018 12:01:15 GMT+0530 (India Standard Time) - Waiting...
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 1.4 kB → 755 B
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 1.4 kB → 755 B
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.009s at Thu Feb 15 2018 12:22:43 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Feb 15 2018 12:22:43 GMT+0530 (India Standard Time) - Waiting...
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 1.4 kB → 755 B
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+
+Execution Time (2018-02-15 14:00:51 UTC+5:30)
+Total 3m 3.4s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 1.4 kB → 755 B
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "app\js\inspinia.js" added.
+>> File "app\js\inspinia.js" added.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.011s at Thu Feb 15 2018 16:01:45 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Thu Feb 15 2018 16:01:45 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-02-15 14:03:59 UTC+5:30)
+
+
+Execution Time (2018-02-15 14:03:59 UTC+5:30)
+Total 2h 36m 5.5s
+
+Total 2h 36m 5.5s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 9.9 kB → 5.01 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+
+Execution Time (2018-02-15 18:45:21 UTC+5:30)
+Total 29m 2.7s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 9.9 kB → 5.01 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 9.9 kB → 5.01 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+
+Execution Time (2018-02-16 11:52:38 UTC+5:30)
+Total 1h 31m 34.1s
+
