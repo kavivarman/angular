@@ -1,0 +1,4 @@
+<div id="wrapper"class="active" ng-class="land.headerClass ? 'active' : 'inactive'" class="active" >
+    <div ng-mouseleave="land.headerClass=false" ng-mouseover="land.headerClass=true" ng-include="'app/module/menu-list/view/menulist.html'" ng-controller="menulistcontroller"></div>
+    <div ng-include="'app/module/content/view/content.html'" ng-controller="contentcontroller"></div> 
+</div>
