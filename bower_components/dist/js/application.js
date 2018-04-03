@@ -19,8 +19,18 @@
               data: {
                   title: '$apply-$digest-$watch'
               }
-          });
-        $urlRouterProvider.otherwise('/index');
+          })
+            .state('index.login',{
+              url:'/login',
+              templateUrl:'app/module/login/view/login.html',
+              controller:'formcontroller'
+    })
+            .state('index.register',{
+              url:'/register',
+              templateUrl:'app/module/register/view/register.html',
+              controller:'registercontroller'
+    });
+        $urlRouterProvider.otherwise('index/login');
     }])
    .run(function ($rootScope, $state) {
        $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, options) {
@@ -326,7 +336,14 @@ function WinMove() {
 }
 
 
-;(function (angular) {
+;MyProject.service('Products', function () {
+  
+  this.Items = function() {
+     product = { product: '', price: '' }
+  };
+    
+    return this;
+});;(function (angular) {
     angular.module('MyProject')
       .controller("applycontroller", ["$scope", function ($scope) {
           $scope.data = { time: new Date() };
@@ -339,7 +356,9 @@ function WinMove() {
                       $scope.data.time = new Date();
                   });
       }]);
+                
 }(angular))
+
 ;(function (angular) {
     angular.module('MyProject')
       .controller("contentcontroller", ["$scope","$state", function ($scope, $state) {
@@ -350,10 +369,36 @@ function WinMove() {
       .controller("landingpagecontroller", ["$scope", function ($scope) {
           var vm=this;
       }]);
+        
 }(angular))
-;(function (angular) {
+;
+(function (angular) {
+    angular.module('MyProject')
+      .controller("formcontroller", ["$scope","Products", function ($scope, Products) {
+         console.log("welcome");
+         $scope.message="welcome to my app";
+        $scope.validation = function(){
+            var a =10;
+            $scope.Product = Products.Items;
+        };
+        $scope.Product = Products.Items;
+      }]);    
+}(angular));(function (angular) {
     angular.module('MyProject')
       .controller("menulistcontroller", ["$scope", function ($scope) {
           console.log('menu controller');
       }]);
+}(angular));
+(function (angular) {
+    angular.module('MyProject')
+      .controller("registercontroller", ['$scope','Products', function ($scope, Products) {
+          var a=5;
+         console.log(a);
+         $scope.message="welcome to my app";
+          
+          $scope.register=function(){
+            alert("Register Successfully"); 
+         }
+        $scope.Product = Products.Items;
+      }]);      
 }(angular))

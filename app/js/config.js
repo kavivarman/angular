@@ -19,8 +19,18 @@
               data: {
                   title: '$apply-$digest-$watch'
               }
-          });
-        $urlRouterProvider.otherwise('/index');
+          })
+            .state('index.login',{
+              url:'/login',
+              templateUrl:'app/module/login/view/login.html',
+              controller:'formcontroller'
+    })
+            .state('index.register',{
+              url:'/register',
+              templateUrl:'app/module/register/view/register.html',
+              controller:'registercontroller'
+    });
+        $urlRouterProvider.otherwise('index/login');
     }])
    .run(function ($rootScope, $state) {
        $rootScope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams, options) {
