@@ -30,7 +30,7 @@ module.exports= function(grunt){
                 dest:'bower_components/dist/js/<%= pkg.name %>.js'
             }
         },
-        uglify: {
+        uglify:{
             options:{
                 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */',
             },
@@ -44,15 +44,17 @@ module.exports= function(grunt){
             server:{
                 options:{
                     port:9000,
+                    hostname:'192.168.2.217',
                     base:'',
                     keepalive:false,
-                    livereload: true
+                    livereload: true,
+                    open:true
                 }
             }
         },
         watch:{
             scripts:{
-                files:['Gruntfile.js', 'app/**/*.js'],
+                files:['Gruntfile.js', 'app/**/*.js', 'app/**/*.html','app/**/*.css','index.html'],
              // event: ['added', 'deleted'],
                 tasks: ['watch'],
                 options:{
@@ -62,12 +64,23 @@ module.exports= function(grunt){
                     reload: true,
                     livereload:{
                         options: { livereload: true },
-                        host: 'localhost',
-                        port:35729
+                        host: '192.168.2.217',
+                        port:35729,
+                        open:true
                     }
                 }
             }   
         }
+        // ,less:{
+        //     options:{
+        //         compress:true,
+        //         yuicompress:true,
+        //         optimization:2
+        //     },
+        //     files:{
+        //         ""
+        //     }
+        // }
     });
     
     grunt.loadNpmTasks('grunt-contrib-connect');
@@ -75,6 +88,7 @@ module.exports= function(grunt){
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-less');
     var connect = require('connect');
         grunt.registerTask('server', function() {
             grunt.log.writeln('Starting static web server in "/app" on port 9000.');
@@ -86,4 +100,4 @@ module.exports= function(grunt){
 
 //For git pull origin sprint1    --allow-unrelated-histories
 
-//https://bootsnipp.com/tags/sidebar  --menue bar reference
+//https://bootsnipp.com/tags/sidebar  --menue bar reference....

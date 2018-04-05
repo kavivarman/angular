@@ -18511,3 +18511,2536 @@ Waiting...
 Execution Time (2018-03-16 10:53:34 UTC+5:30)
 Total 2m 40.3s
 
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.014s at Wed Mar 28 2018 12:54:31 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.014s at Wed Mar 28 2018 12:54:31 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-03-28 12:34:30 UTC+5:30)
+
+
+Execution Time (2018-03-28 12:34:30 UTC+5:30)
+Total 20m 7.4s
+
+Total 20m 7.4s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+
+Execution Time (2018-03-28 12:54:44 UTC+5:30)
+uglify:build    432ms  ███ 3%
+connect:server  461ms  ███ 3%
+Total 16.9s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Loading "Gruntfile.js" tasks...ERROR
+>> SyntaxError: Unexpected identifier
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Loading "Gruntfile.js" tasks...ERROR
+>> SyntaxError: Unexpected identifier
+
+Running "watch" task
+Waiting...
+>> File "Gruntfile.js" changed.
+
+Running "watch" task
+Completed in 0.007s at Wed Mar 28 2018 12:56:10 GMT+0530 (India Standard Time) - Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.076s at Wed Mar 28 2018 12:56:12 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.076s at Wed Mar 28 2018 12:56:12 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.076s at Wed Mar 28 2018 12:56:12 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-03-28 12:55:47 UTC+5:30)
+
+
+Execution Time (2018-03-28 12:55:47 UTC+5:30)
+
+
+Execution Time (2018-03-28 12:55:47 UTC+5:30)
+uglify:build    412ms  ██ 2%
+connect:server  453ms  ██ 2%
+Total 26.8s
+
+uglify:build    412ms  ██ 2%
+connect:server  453ms  ██ 2%
+Total 26.8s
+
+uglify:build    412ms  ██ 2%
+connect:server  453ms  ██ 2%
+Total 26.8s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://localhost:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.012s at Wed Mar 28 2018 15:08:29 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.012s at Wed Mar 28 2018 15:08:29 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-03-28 12:56:19 UTC+5:30)
+
+
+Execution Time (2018-03-28 12:56:19 UTC+5:30)
+Total 2h 12m 15s
+
+Total 2h 12m 15s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.009s at Wed Mar 28 2018 15:32:27 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Wed Mar 28 2018 15:32:27 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Wed Mar 28 2018 15:32:27 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.018s at Wed Mar 28 2018 15:32:34 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Wed Mar 28 2018 15:32:34 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Wed Mar 28 2018 15:32:34 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Wed Mar 28 2018 15:32:34 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.020s at Wed Mar 28 2018 15:32:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.020s at Wed Mar 28 2018 15:32:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.020s at Wed Mar 28 2018 15:32:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.020s at Wed Mar 28 2018 15:32:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.020s at Wed Mar 28 2018 15:32:35 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.011s at Wed Mar 28 2018 15:32:36 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:08:50 UTC+5:30)
+Total 23m 47.8s
+
+Total 23m 47.8s
+
+Total 23m 47.8s
+
+Total 23m 47.8s
+
+Total 23m 47.8s
+
+Total 23m 47.8s
+
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.014s at Wed Mar 28 2018 15:34:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.014s at Wed Mar 28 2018 15:34:36 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-03-28 15:32:44 UTC+5:30)
+
+
+Execution Time (2018-03-28 15:32:44 UTC+5:30)
+Total 16m 42.6s
+
+Total 16m 42.6s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.029s at Mon Apr 02 2018 10:33:34 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.029s at Mon Apr 02 2018 10:33:34 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.009s at Mon Apr 02 2018 10:33:42 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Mon Apr 02 2018 10:33:42 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Mon Apr 02 2018 10:33:42 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.016s at Mon Apr 02 2018 10:49:47 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:49:47 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:49:47 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:49:47 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.016s at Mon Apr 02 2018 10:50:07 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:07 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:07 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:07 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:07 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Mon Apr 02 2018 10:50:16 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.075s at Mon Apr 02 2018 10:50:18 GMT+0530 (India Standard Time) - Waiting...
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.014s at Thu Apr 05 2018 10:51:57 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.014s at Thu Apr 05 2018 10:51:57 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.018s at Thu Apr 05 2018 10:52:23 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 10:52:23 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 10:52:23 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.031s at Thu Apr 05 2018 10:53:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 10:53:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 10:53:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 10:53:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 10:53:21 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 10:48:07 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:48:07 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:48:07 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:48:07 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:48:07 UTC+5:30)
+Total 5m 19.9s
+
+Total 5m 19.9s
+
+Total 5m 19.9s
+
+Total 5m 19.9s
+
+Total 5m 19.9s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "index.html" changed.
+>> File "index.html" changed.
+
+
+Running "connect:server" (connect) task
+Running "connect:server" (connect) task
+Fatal error: Port 9000 is already in use by another process.
+Fatal error: Port 9000 is already in use by another process.
+Started connect web server on http://192.168.2.217:9001
+Started connect web server on http://192.168.2.217:9001
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.032s at Thu Apr 05 2018 10:55:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:18 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.032s at Thu Apr 05 2018 10:55:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 10:55:19 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 10:54:48 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:54:48 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:54:48 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:54:48 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:54:48 UTC+5:30)
+connect:server  471ms  ██ 1%
+connect:server  449ms  ██ 1%
+Total 33.6s
+
+connect:server  471ms  ██ 1%
+connect:server  449ms  ██ 1%
+Total 33.6s
+
+connect:server  471ms  ██ 1%
+connect:server  449ms  ██ 1%
+Total 33.6s
+
+connect:server  471ms  ██ 1%
+connect:server  449ms  ██ 1%
+Total 33.6s
+
+connect:server  471ms  ██ 1%
+connect:server  449ms  ██ 1%
+Total 33.6s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.015s at Thu Apr 05 2018 10:55:43 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.015s at Thu Apr 05 2018 10:55:43 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.034s at Thu Apr 05 2018 10:56:05 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 10:56:05 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 10:56:05 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+Scheduled tasks have been interrupted...Scheduled tasks have been interrupted...Scheduled tasks have been interrupted...Scheduled tasks have been interrupted...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "watch" task
+Waiting...
+Fatal error: Port 35729 is already in use by another process.
+
+
+Execution Time (2018-04-05 11:01:10 UTC+5:30)
+loading tasks  15ms  █████████ 8%
+Total 181ms
+
+
+
+Execution Time (2018-04-05 10:55:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:55:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:55:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:55:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 10:55:29 UTC+5:30)
+Total 5m 46.5s
+
+Total 5m 46.5s
+
+Total 5m 46.5s
+
+Total 5m 46.5s
+
+Total 5m 46.5s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "watch" task
+Waiting...
+Fatal error: Port 35729 is already in use by another process.
+
+
+Execution Time (2018-04-05 11:01:39 UTC+5:30)
+loading tasks  31ms  ██████████████████ 17%
+Total 184ms
+
+
+
+Execution Time (2018-04-05 11:01:21 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:01:21 UTC+5:30)
+Total 1m 1.3s
+
+Total 1m 1.3s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "watch" task
+Waiting...
+Fatal error: Port 35729 is already in use by another process.
+
+
+Execution Time (2018-04-05 11:03:00 UTC+5:30)
+loading tasks  15ms  ██████████ 9%
+Total 173ms
+
+Completed in 2.610s at Thu Apr 05 2018 11:03:00 GMT+0530 (India Standard Time) - Waiting...
+Completed in 2.610s at Thu Apr 05 2018 11:03:00 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "watch" task
+Waiting...
+Fatal error: Port 35729 is already in use by another process.
+
+
+Execution Time (2018-04-05 11:03:21 UTC+5:30)
+loading tasks  16ms  ███████████ 10%
+Total 159ms
+
+Completed in 2.774s at Thu Apr 05 2018 11:03:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 2.774s at Thu Apr 05 2018 11:03:21 GMT+0530 (India Standard Time) - Waiting...
+Completed in 2.774s at Thu Apr 05 2018 11:03:21 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 11:02:46 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:02:46 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:02:46 UTC+5:30)
+uglify:build    475ms  ██ 1%
+connect:server  479ms  ██ 1%
+Total 39.7s
+
+uglify:build    475ms  ██ 1%
+connect:server  479ms  ██ 1%
+Total 39.7s
+
+uglify:build    475ms  ██ 1%
+connect:server  479ms  ██ 1%
+Total 39.7s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.016s at Thu Apr 05 2018 11:08:43 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Thu Apr 05 2018 11:08:43 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.024s at Thu Apr 05 2018 11:09:17 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.024s at Thu Apr 05 2018 11:09:17 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.024s at Thu Apr 05 2018 11:09:17 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.016s at Thu Apr 05 2018 11:09:50 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Thu Apr 05 2018 11:09:50 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Thu Apr 05 2018 11:09:50 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.016s at Thu Apr 05 2018 11:09:50 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.032s at Thu Apr 05 2018 11:09:55 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:09:55 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:09:55 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:09:55 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:09:55 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.009s at Thu Apr 05 2018 11:09:56 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+>> File "app\module\landing-page\controller\landingpagecontroller.js" changed.
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:10:04 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.018s at Thu Apr 05 2018 11:10:19 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+
+
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.025s at Thu Apr 05 2018 11:10:22 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:08:31 UTC+5:30)
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+Total 1m 52.9s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.83 kB → 5.53 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.006s at Thu Apr 05 2018 11:10:39 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.006s at Thu Apr 05 2018 11:10:39 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.017s at Thu Apr 05 2018 11:10:46 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.017s at Thu Apr 05 2018 11:10:46 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.017s at Thu Apr 05 2018 11:10:46 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.032s at Thu Apr 05 2018 11:11:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:11:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:11:18 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:11:18 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.034s at Thu Apr 05 2018 11:11:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 11:11:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 11:11:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 11:11:19 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.034s at Thu Apr 05 2018 11:11:19 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "index.html" changed.
+>> File "index.html" changed.
+>> File "index.html" changed.
+>> File "index.html" changed.
+>> File "index.html" changed.
+>> File "index.html" changed.
+>> File "index.html" changed.
+
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:11:35 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:10:29 UTC+5:30)
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+Total 1m 12.2s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.83 kB → 5.53 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+>> File "Gruntfile.js" changed.
+>> File "Gruntfile.js" changed.
+
+
+Running "watch" task
+Running "watch" task
+Completed in 0.017s at Thu Apr 05 2018 11:11:58 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.017s at Thu Apr 05 2018 11:11:58 GMT+0530 (India Standard Time) - Waiting...
+
+
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+>> File "app\module\apply-watch-digest\controller\applycontroller.js" changed.
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.032s at Thu Apr 05 2018 11:12:11 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:12:11 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.032s at Thu Apr 05 2018 11:12:11 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.072s at Thu Apr 05 2018 11:12:26 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.072s at Thu Apr 05 2018 11:12:26 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.072s at Thu Apr 05 2018 11:12:26 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.072s at Thu Apr 05 2018 11:12:26 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.031s at Thu Apr 05 2018 11:12:31 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:12:31 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:12:31 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:12:31 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.031s at Thu Apr 05 2018 11:12:31 GMT+0530 (India Standard Time) - Waiting...
+
+
+
+
+
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Reloading watch config...
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+Grunt and task output will also be logged to "./logs/grunt.log"
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+Waiting...
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+>> File "app\module\landing-page\view\landing-page.html" changed.
+
+
+
+
+
+
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Running "watch" task
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+Completed in 0.021s at Thu Apr 05 2018 11:12:36 GMT+0530 (India Standard Time) - Waiting...
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+
+
+Execution Time (2018-04-05 11:11:51 UTC+5:30)
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+uglify:build  543ms  ██ 1%
+Total 47.2s
+
+>> Local Npm module "grunt-less" not found. Is it installed?
+
+Running "server" task
+Starting static web server in "/app" on port 9000.
+
+Running "concat:dist" (concat) task
+
+Running "uglify:build" (uglify) task
+>> 1 file created 10.81 kB → 5.51 kB
+
+Running "connect:server" (connect) task
+Started connect web server on http://192.168.2.217:9000
+
+Running "watch" task
+Waiting...
+
+
+Execution Time (2018-04-05 11:43:40 UTC+5:30)
+Total 1m 22.2s
+
