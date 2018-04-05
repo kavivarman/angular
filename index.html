@@ -9,6 +9,7 @@
     <link href="/bower_components/font-awesome/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
     <link href="/bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
     <link href="/bower_components/PACE/themes/silver/pace-theme-minimal.css" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/formvalidation/style.css">
     <style>
         .row{
             margin-left:0px;
@@ -188,10 +189,28 @@
     </style>
 </head>
 <body>
+
     <div ui-view>
     </div>
-    <script src="http://192.168.2.217:35729/livereload.js"></script>
+    <header>
+  <nav class="cf" ng-include="'app/module/menu-list/view/nav.html'"></nav>
+</header>
+    <script src="http://localhost:35729/livereload.js"></script>
 </body>
+    <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyD4SVsByOmh8zjel2ec-NnwM3NgbdnxB_E",
+        authDomain: "angularregistraion08.firebaseapp.com",
+        databaseURL: "https://angularregistraion08.firebaseio.com",
+        projectId: "angularregistraion08",
+        storageBucket: "angularregistraion08.appspot.com",
+        messagingSenderId: "984353810327"
+    };
+    firebase.initializeApp(config);
+    </script>
+
     <script src="/bower_components/jquery/jquery.min.js"></script>
     <link href="/bower_components/inspinia/inspinia.js" rel="stylesheet">
     <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -202,10 +221,13 @@
     <script src="/bower_components/angular-route/angular-route.min.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="/app/js/config.js"></script>
+    <script src="/app/js/service.js"></script>
     <script src="/app/module/apply-watch-digest/controller/applycontroller.js"></script>
     <script src="app/module/landing-page/controller/landingpagecontroller.js"></script>
     <script src="app/module/menu-list/controller/menulistcontroller.js"></script>
     <script src="app/module/content/controller/contentcontroller.js"></script>
+    <script src="app/module/login/controller/formcontroller.js"></script>
+    <script src="app/module/register/controller/registercontroller.js"></script>
     <script>
         $("#menu-toggle").click(function(e) {
             e.preventDefault();

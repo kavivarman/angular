@@ -11,4 +11,6 @@
                       $scope.data.time = new Date();
                   });
       }]);
+                
 }(angular))
+
