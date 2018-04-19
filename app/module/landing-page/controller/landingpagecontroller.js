@@ -3,5 +3,4 @@
       .controller("landingpagecontroller", ["$scope", function ($scope) {
           var vm=this;
       }]);
-        
 }(angular))
