@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+   justify-content: center;
+  background-color: DodgerBlue;
+}
+.flexbox{
+  cursor: pointer;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius:4px;
+}
+.top-20{
+    margin-top:20px;
+}
+.details{
+    display: flex;
+    flex-flow: row wrap;
+   justify-content: center;
+}
+.myOrders{
+font-size:16px;
+color:skyblue;
+}
+td,th{
+    width:100px;
+    text-align: center;
+}

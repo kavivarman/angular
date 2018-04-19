@@ -1,0 +1,23 @@
+<h1>Scope Value FALSE</h1>
+<input type='text' ng-model='name' />
+<h2>parent scope value {{name}} </h2>
+<div false-directive ></div>
+<div style="margin-top:25px"></div>
+<h1>Scope Value TRUE</h1>
+<input type='text' ng-model='name1' />
+<h2>parent scope value {{name1}} </h2>
+<div true-directive ></div>
+<div style="margin-top:25px"></div>
+
+<h1>One Way Binding "@"</h1>
+<input type='text' ng-model='student' />
+<one-way-directive name="{{student}}"></one-way-directive>
+<div style="margin-top:25px"></div>
+<h1>Two Way Binding "="</h1>
+<input type='text' ng-model='obj.fname' />
+<two-way-directive  obj='obj'></two-way-directive>
+<div style="margin-top:25px"></div>
+<h1>Method Binding "&amp;"</h1>
+<method-directive stud='customer' swap='swapData()'></method-directive>
+<div style="margin-top:25px"></div>
+ <div phone dial="callHome(message)"></div>

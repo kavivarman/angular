@@ -20,16 +20,31 @@
                   title: '$apply-$digest-$watch'
               }
           })
+            .state('index.directive',{
+              url:'/directive',
+              templateUrl:'app/module/directive/view/directive.html',
+              controller:'directivecontroller'
+             })
+            .state('index.myApp',{
+              url:'/myApp',
+              templateUrl:'app/module/myApp/view/myApp.html',
+              controller:'myappcontroller'
+             })
             .state('index.login',{
               url:'/login',
               templateUrl:'app/module/login/view/login.html',
               controller:'formcontroller'
-    })
+             })
+            .state('index.example',{
+              url:'/example',
+              templateUrl:'app/module/Exampls/view/example.html',
+              controller:'examplecontroller'
+             })
             .state('index.register',{
               url:'/register',
               templateUrl:'app/module/register/view/register.html',
               controller:'registercontroller'
-    });
+            });
         $urlRouterProvider.otherwise('index/login');
     }])
    .run(function ($rootScope, $state) {

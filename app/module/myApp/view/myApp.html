@@ -1,0 +1,50 @@
+<h2>Hi {{user}}<span class="myOrders"><a ng-click="logout()" style="float:right">Logout</a></span></h2>
+<div>
+<h1>Welcome to MyApp <span class="myOrders"><a ng-click="data=true;totalOrders()" style="float:right">My Orders</a></span></h1>
+</div>
+<div class ="flex-container" class="col-sm-6">
+    <my-app  ng-click="click=1" ng-model="click" condition={{medicine}}></my-app>
+     <my-app ng-click="click=2" ng-model="click" condition={{foods}}></my-app>
+      <my-app  ng-click="click=3" ng-model="click"condition={{groceries}}></my-app>
+       <my-app ng-click="click='4'" ng-model="click" condition={{watercans}}></my-app>
+</div>
+    <div ng-show="click==4" class ="top-20 details">
+        <div>
+            <h3>How many Watercans ?</h3>
+            <fieldset>  
+                <input type="number" ng-model="quantity"name="quantity" min="1" max="10"  class="form-control"/>
+                <div ng-show="quantity">
+                    <div ng-model="price"> price :{{price=quantity*30}}</div>
+                         <address></address> 
+                    <button style="display:block"  ng-click="order() ">Order</button>                            
+                </div>
+            </fieldset>
+            
+        </div>
+    </div><!-- Water Can Orders-->
+    <div ng-show="click==2" class ="top-20 ">
+        <div>
+             <h3>Food Items</h3>
+              <fieldset>
+                 
+            </fieldset>  
+        </div>
+    </div>
+    <div ng-show="data==true" class="flex-container">    
+            <table>
+                <thead>
+                    <tr>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat=" item in orders">
+                    <td>{{item.quantity}}</td>
+                    <td>{{item.price}}</td>
+                    <td>{{item.address}}</td>
+                    </tr>
+                </tbody>        
+            </table>
+    </div>
