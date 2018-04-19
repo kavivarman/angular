@@ -502,7 +502,6 @@ function WinMove() {
       .controller("landingpagecontroller", ["$scope", function ($scope) {
           var vm=this;
       }]);
-        
 }(angular))
 ;(function (angular) {
     angular.module('MyProject')
