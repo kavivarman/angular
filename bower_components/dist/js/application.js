@@ -20,16 +20,31 @@
                   title: '$apply-$digest-$watch'
               }
           })
+            .state('index.directive',{
+              url:'/directive',
+              templateUrl:'app/module/directive/view/directive.html',
+              controller:'directivecontroller'
+             })
+            .state('index.myApp',{
+              url:'/myApp',
+              templateUrl:'app/module/myApp/view/myApp.html',
+              controller:'myappcontroller'
+             })
             .state('index.login',{
               url:'/login',
               templateUrl:'app/module/login/view/login.html',
               controller:'formcontroller'
-    })
+             })
+            .state('index.example',{
+              url:'/example',
+              templateUrl:'app/module/Exampls/view/example.html',
+              controller:'examplecontroller'
+             })
             .state('index.register',{
               url:'/register',
               templateUrl:'app/module/register/view/register.html',
               controller:'registercontroller'
-    });
+            });
         $urlRouterProvider.otherwise('index/login');
     }])
    .run(function ($rootScope, $state) {
@@ -38,7 +53,88 @@
        });
    });
 }(angular))
-;/*
+;
+(function (angular) {     
+    angular.module('MyProject')       
+      .directive("falseDirective", function () {
+        return {
+          restrict: 'EA',
+          scope: false,
+          template: "<div>directive scope value : {{name}}</div>"+
+          "Change directive scope value : <input type='text' ng-model='name' />"
+      };
+          });
+     angular.module('MyProject')       
+      .directive("trueDirective", function () {
+        return {
+          restrict: 'EA',
+          scope: true,
+          template: "<div>directive scope value : {{name1}}</div>"+
+          "Change directive scope value : <input type='text' ng-model='name1' />"
+      };
+          });
+     angular.module('MyProject')       
+      .directive("oneWayDirective", function () {
+        return {
+          restrict: 'EA',
+          scope: {
+            name:'@'
+          },
+            template: "StudentName:{{name}}"+"<input type='text' ng-model='name' />"
+        };
+          });
+      angular.module('MyProject')       
+        .directive("twoWayDirective", function () {
+        return {
+          restrict: 'EA',
+            scope: { obj: '='},
+        template: '<div>Welcome, {{obj.fname + obj.lname}}!</div>'+"<input type='text' ng-model='obj.fname' />"
+        };
+          });
+        angular.module('MyProject')       
+        .directive("methodDirective", function () {
+        return {
+            scope: {
+            stud:'=',
+            obj: '=',
+            swap: '&'
+            },
+           template: "<div>the changed names are, {{stud.fname + stud.lname}}!</div>"
+           +"<button id='btn1' ng-click='swap()'>Click here to Swap student Data</button>"
+        };
+          });
+       angular.module('MyProject') 
+      .directive("phone", function () {
+          return {
+            scope: {
+              dial: "&"
+            },
+            template: "<input type='text' ng-model='value'>" +
+              "<button ng-click='dial({message:value})'>" +
+              "Call home!</button>"
+          };
+        });
+        /*My App*/
+      angular.module('MyProject')       
+      .directive("myApp", function () {
+        return {
+          restrict: 'EA',
+          scope:{ 
+             condition:'@'
+            },
+          template: "<div class='flexbox'>{{condition}}</div>"
+      };
+          });
+   angular.module('MyProject')       
+      .directive("address", function () {
+        return {
+          restrict: 'EA',
+          scope:false,
+          template: "<input type='text' name='address' placeHolder='Your Address'ng-model='address' ng-required class='form-control'>"
+      };
+          });
+             
+  }(angular));/*
  *
  *   INSPINIA - Responsive Admin Theme
  *   version 2.6
@@ -336,14 +432,7 @@ function WinMove() {
 }
 
 
-;MyProject.service('Products', function () {
-  
-  this.Items = function() {
-     product = { product: '', price: '' }
-  };
-    
-    return this;
-});;(function (angular) {
+;;(function (angular) {
     angular.module('MyProject')
       .controller("applycontroller", ["$scope", function ($scope) {
           $scope.data = { time: new Date() };
@@ -362,8 +451,52 @@ function WinMove() {
 ;(function (angular) {
     angular.module('MyProject')
       .controller("contentcontroller", ["$scope","$state", function ($scope, $state) {
-        $state.go('index.apply-digest-watch');
+        $scope.data = JSON.parse(localStorage.getItem('registerDetails'));
+        $state.go('index.example');
+        // var value=localStorage.getItem('value');
+        // if($scope.data==null)
+        //     $state.go('index.register');
+        // else if(value==1){
+        //     $state.go('index.myApp');
+        // }
+        // else
+        //     $state.go('index.login');
       }]);
+}(angular));
+(function (angular) {
+    angular.module('MyProject')
+      .controller("directivecontroller", ['$scope', function ($scope) {
+            $scope.callHome = function (message) {
+              alert(message);
+            };
+        $scope.name ="paper";
+        $scope.name1 ="rock";
+        $scope.student ="Rohit"; 
+        $scope.obj = { fname: 'shubh', lname: 'raj' };   
+         $scope.customer = { fname: 'shubh', lname: 'raj' }; 
+        $scope.swapData = function () {
+        $scope.customer = {
+            fname: 'Raj',
+            lname: 'kumar'
+        };
+    };    
+}]);                
+  }(angular));(function (angular) {
+    angular.module('MyProject')
+     .value("defaultInput", 0);
+     angular.module('MyProject')
+     .constant("quality", 5);
+
+    
+
+    angular.module('MyProject')
+      .controller("examplecontroller", ["$scope","$state","defaultInput","quality", function ($scope, $state, defaultInput,quality) {
+         defaultInput=10;
+         $scope.number = defaultInput;
+         quality="Hello World";
+         $scope.fruit=quality;
+      }]);
+          
 }(angular));(function (angular) {
     angular.module('MyProject')
       .controller("landingpagecontroller", ["$scope", function ($scope) {
@@ -371,17 +504,39 @@ function WinMove() {
       }]);
         
 }(angular))
-;
-(function (angular) {
+;(function (angular) {
     angular.module('MyProject')
-      .controller("formcontroller", ["$scope","Products", function ($scope, Products) {
+      .controller("formcontroller", ["$scope","$state","defaultInput", function ($scope, $state,defaultInput) {
          console.log("welcome");
+         $scope.user = JSON.parse(localStorage.getItem('registerDetails'));
          $scope.message="welcome to my app";
-        $scope.validation = function(){
-            var a =10;
-            $scope.Product = Products.Items;
+         $scope.number = defaultInput;
+        $scope.login=function(){
+          var temp =0;
+          for(var i=0;i<$scope.user.length;i++){
+              if($scope.user[i].email==$scope.email)
+                {
+                  if($scope.user[i].password==$scope.password)
+                    {
+                      temp =1; 
+                      localStorage.setItem('index',i);
+                      $state.go('index.myApp');
+                     
+                    }
+                    else
+                      {
+                        temp =1;
+                        alert("Your Password is incorrect");
+                        $scope.password='';
+                      }
+                }       
+          }   
+              if(temp==0){
+                alert("enter valid Email");
+                 $scope.email='';
+                 $scope.password='';
+              }                       
         };
-        $scope.Product = Products.Items;
       }]);    
 }(angular));(function (angular) {
     angular.module('MyProject')
@@ -391,14 +546,88 @@ function WinMove() {
 }(angular));
 (function (angular) {
     angular.module('MyProject')
-      .controller("registercontroller", ['$scope','Products', function ($scope, Products) {
-          var a=5;
-         console.log(a);
-         $scope.message="welcome to my app";
-          
-          $scope.register=function(){
-            alert("Register Successfully"); 
+      .controller("myappcontroller", ['$scope','$state', function ($scope,$state) {
+          var a=localStorage.getItem('index');
+          $scope.data = JSON.parse(localStorage.getItem('registerDetails'));
+          $scope.user=$scope.data[a].firstname;
+          $scope.address=$scope.data[a].address;
+          $scope.medicine="Medicine";
+          $scope.foods="Foods";
+          $scope.groceries="Groceries";
+          $scope.watercans="WaterCans";
+          $scope.orders=[];
+          $scope.order=function(){ 
+            $scope.orders.push
+                        ({
+                        quantity:$scope.quantity,
+                        price: $scope.price,
+                        address:$scope.address
+                        });
+                     $scope.quantity='';
+                     alert("Your Order is Successful");
+         };
+        var b=1;
+                   
+         $scope.logout=function(){
+           debugger; 
+           b=0;
+            $state.go('index.login');
+            localStorage.setItem('value',b);  
          }
-        $scope.Product = Products.Items;
-      }]);      
+        localStorage.setItem('value',b);    
+        
+}]);     
+           
+  }(angular))
+;
+(function (angular) {
+    angular.module('MyProject')
+     .controller('registercontroller',['$scope','$state',
+        function($scope, $state){
+            $scope.message="welcome to my app";
+            $scope.registerDetails=[];
+            $scope.user = JSON.parse(localStorage.getItem('registerDetails'));
+            if($scope.user==null){
+               $scope.registerDetails=[]; 
+            }
+            else{
+                for(var i=0;i<$scope.user.length;i++)
+                {
+                $scope.registerDetails.push($scope.user[i]);
+                }
+            }
+            $scope.register=function(){
+                if($scope.email!=null && $scope.email!='')
+                {
+                    var temp=0;
+                        angular.forEach($scope.registerDetails, function(item,index){            
+                        if($scope.email==item.email)
+                            {              
+                                    alert("Email Id Already Existed");
+                                    temp=1;    
+                            }   
+                        })
+                 if(temp==0)
+                    {           
+                        $scope.registerDetails.push({
+                            firstname:$scope.firstname,
+                            address:$scope.address,
+                            email:$scope.email,
+                            password:$scope.password
+                        });
+                        $scope.firstname='';
+                        $scope.address='';
+                        $scope.email='';
+                        $scope.password='';    
+                        $state.go('index.login');     
+                        alert("register Successful");       
+                    }
+                     
+                }
+                localStorage.setItem('registerDetails', JSON.stringify($scope.registerDetails));
+               
+            };
+            
+        }]);//controller
+   
 }(angular))

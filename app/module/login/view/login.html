@@ -5,23 +5,25 @@
 
     <div class="textintro">
       <h1>Hi there!</h1>
+      <p>{{number}}<p>
+        <p>{{fruit}}<p>
       <p>Log-in to access the awesomeness!</p>
-      <p> {{ message }}</p>
+      <p ng-show="message" > {{ message}}</p>
       
     </div>
 
     <fieldset>
       <input type="email" name="email" placeholder="Email"
-       ng-model="user.email" ng-required="true">
+       ng-model="email" ng-required="true">
       <p class="error validationerror"
       ng-show="myform.email.$invalid && myform.email.$touched">
       Must be a valid email</p>
 
 
       <input type="password" name="password" placeholder="Password"
-      ng-model="user.password" ng-required="true">
+      ng-model="password" ng-required="true">
       <p class="error validationerror"
-      ng-show="myform.password.$invalid && myform.email.$touched">
+      ng-show="myform.password.$invalid && myform.password.$touched">
       Password is required</p>
 
     </fieldset>
